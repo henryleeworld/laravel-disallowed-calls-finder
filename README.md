@@ -1,4 +1,4 @@
-# Laravel 11 禁止呼叫捕獲器
+# Laravel 12 禁止呼叫捕獲器
 
 引入 spaze 的 phpstan-disallowed-calls 套件來擴增使用 PHPStan 通過靜態分析捕獲禁止呼叫，有些函數、方法和常數不應該在正式環境程式碼中使用。
 
@@ -24,5 +24,5 @@ $ ./vendor/bin/phpstan analyse {掃描路徑} {-c 設定檔}
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/1cQOPty.png)
+![](https://i.imgur.com/9bC778r.png)
 > 執行二進位制檔案檢查
